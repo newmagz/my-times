@@ -13,6 +13,7 @@ color: MediumAquamarine;
 flex-grow: 1;
 align-items: center;
 padding-left: 30px;
+border: 1px solid black;
 }
 .logo span {
     margin-left: 5px;
@@ -26,4 +27,43 @@ a {
 }
 header nav{
   padding-right: 40px;
+}
+.main-content {
+  margin: 0 auto;
+  display: flex;
+  align-items:flex-end;
+}
+.main-content {
+  display: flex;
+  border: 1px solid black;
+}
+.column.large {
+  display: flex;
+  width: 630px;
+  border: 1px solid black;
+}
+.featured-image-content{
+  border: 1px solid black;
+}
+.story{
+  border: 1px solid black;
+}
+.column.medium {
+  display: flex;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.column.small {
+  width: 240px;
+  border: 1px solid black;
+}
+.headline{
+  border: 1px solid black;
+}
+.preview{
+  border: 1px solid black;
+}
+.news-bites{
+  border: 1px solid black;
 }
