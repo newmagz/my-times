@@ -9,11 +9,16 @@
 }
 #business_name {
   color: MediumAquamarine;
+  margin: auto 5px;
 }
 .navigation {
   display: flex;
   flex-wrap: wrap;
+  margin: auto 5px;
+  justify-content: space-around;
 }
-.nav {
+#nav {
   display: inline-block;
+  width:60px;
+  margin:auto 10px;
 }
