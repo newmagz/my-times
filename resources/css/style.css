@@ -8,11 +8,17 @@
   height: 80px;
 }
 .logo{
+display: flex;
 color: MediumAquamarine;
 flex-grow: 1;
+align-items: center;
+padding-left: 30px;
 }
 #nav {
   display: inline-block;
-  width:60px;
   margin:auto 10px;
+  color: black;
+}
+header nav{
+  padding-right: 40px;
 }
