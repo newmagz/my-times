@@ -3,19 +3,13 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  align-items: center;
+  border-bottom: 1px black;
+  height: 80px;
 }
 .logo{
-
-}
-#business_name {
-  color: MediumAquamarine;
-  margin: auto 5px;
-}
-.navigation {
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto 5px;
-  justify-content: space-around;
+color: MediumAquamarine;
+flex-grow: 1;
 }
 #nav {
   display: inline-block;
