@@ -14,9 +14,11 @@ flex-grow: 1;
 align-items: center;
 padding-left: 30px;
 }
-#nav {
+nav span {
   display: inline-block;
   margin:auto 10px;
+}
+a {
   color: black;
 }
 header nav{
