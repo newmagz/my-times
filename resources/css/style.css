@@ -31,16 +31,17 @@ header nav{
 .main-content {
   margin: 0 auto;
   display: flex;
-  align-items:flex-end;
+  align-items:flex-start;
 }
 .main-content {
   display: flex;
   border: 1px solid black;
+  width: 1232px;
 }
-.column.large {
+.column {
   display: flex;
-  width: 630px;
   border: 1px solid black;
+  margin-right: 25px;
 }
 .featured-image-content{
   border: 1px solid black;
@@ -48,16 +49,15 @@ header nav{
 .story{
   border: 1px solid black;
 }
+.column.large {
+  width: 630px;
+}
 .column.medium {
-  display: flex;
   width: 300px;
-  border: 1px solid black;
 }
 
 .column.small {
-  display: flex;
   width: 240px;
-  border: 1px solid black;
 }
 .headline{
   border: 1px solid black;
