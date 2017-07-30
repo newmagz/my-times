@@ -1,6 +1,3 @@
-div{
-    border: 1px solid black;
-}
 header {
     display: flex;
     font-family: Verdana;
@@ -94,12 +91,17 @@ background-image: url("/my-times/resources/images/img-story-1.png")
 .column.small {
   width: 240px;
 }
-.headline{
-
-}
-.preview{
-
-}
 .news-bites{
-
+  display: flex;
+}
+.news-bites h3{
+  font-size: 16px;
+  font-weight: bold;
+}
+.news-bites span{
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
 }
