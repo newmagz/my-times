@@ -63,6 +63,9 @@ font-size: 40px;
 text-align: left;
 background-image: url("/my-times/resources/images/img-story-main.png");
 }
+.lead-story .image-content {
+    width: 630px;
+}
 .first.image-content{
 background-image: url("/my-times/resources/images/img-story-2.png")
 }
@@ -72,8 +75,14 @@ background-image: url("/my-times/resources/images/img-story-3.png")
 .third.image-content{
 background-image: url("/my-times/resources/images/img-story-1.png")
 }
+.stories{
+  display: flex;
+  justify-content: space-between;
+}
 .story{
-
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
 .column.large {
   width: 630px;
