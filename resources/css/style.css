@@ -1,10 +1,12 @@
+div{
+    border: 1px solid black;
+}
 .header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   align-items: center;
-  border-bottom: 1px solid black;
   height: 80px;
 }
 .logo{
@@ -13,7 +15,6 @@ color: MediumAquamarine;
 flex-grow: 1;
 align-items: center;
 padding-left: 30px;
-border: 1px solid black;
 }
 .logo span {
     margin-left: 5px;
@@ -35,19 +36,32 @@ header nav{
 }
 .main-content {
   display: flex;
-  border: 1px solid black;
   width: 1232px;
 }
 .column {
   display: flex;
+  flex-direction: column;
   border: 1px solid black;
-  margin-right: 25px;
+  margin-right: 32px;
+  flex-wrap: wrap;
 }
-.featured-image-content{
-  border: 1px solid black;
+.image-content{
+
+}
+.featured.image-content{
+
+}
+.first.image-content{
+
+}
+.second.image-content{
+
+}
+.third.image-content{
+
 }
 .story{
-  border: 1px solid black;
+
 }
 .column.large {
   width: 630px;
@@ -60,11 +74,11 @@ header nav{
   width: 240px;
 }
 .headline{
-  border: 1px solid black;
+
 }
 .preview{
-  border: 1px solid black;
+
 }
 .news-bites{
-  border: 1px solid black;
+
 }
