@@ -52,16 +52,20 @@ header nav{
   flex-direction: column;
   margin-right: 32px;
 }
-.image-content{
-  height: 300px;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  text-align:center;
-  color: white;
+.image-content {
+    display: flex;
+    height: 300px;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
 }
 .featured.image-content{
 font-size: 40px;
+margin-left: 20px;
 text-align: left;
 background-image: url("/my-times/resources/images/img-story-main.png");
 }
