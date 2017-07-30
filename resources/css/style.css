@@ -50,12 +50,14 @@ header nav{
   flex-direction: column;
   margin-right: 32px;
 }
+.image-content{
+  height: 300px;
+}
 .image-content span{
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
-  height: 300px;
 }
 .featured.image-content{
 font-size: 40px;
