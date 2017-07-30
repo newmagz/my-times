@@ -50,20 +50,24 @@ header nav{
   flex-direction: column;
   margin-right: 32px;
 }
-.image-content{
-
+.image-content span{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 .featured.image-content{
-
+font-size: 40px;
+background-image: url("/my-times/resources/images/img-story-main.png");
 }
 .first.image-content{
-
+background-image: url("/my-times/resources/images/img-story-2.png")
 }
 .second.image-content{
-
+background-image: url("/my-times/resources/images/img-story-3.png")
 }
 .third.image-content{
-
+background-image: url("/my-times/resources/images/img-story-1.png")
 }
 .story{
 
