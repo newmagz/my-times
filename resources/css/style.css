@@ -65,9 +65,11 @@ header nav{
 }
 .featured.image-content{
 font-size: 40px;
-margin-left: 20px;
 text-align: left;
 background-image: url("/my-times/resources/images/img-story-main.png");
+}
+.featured.image-content span{
+margin-left: 20px;
 }
 .lead-story .image-content {
     width: 630px;
