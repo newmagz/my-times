@@ -12,6 +12,9 @@ header {
     border-bottom: 1px solid black;
     top: 0px;
 }
+body{
+  font-size: 17px;
+}
 .logo{
 display: flex;
 flex-grow: 1;
@@ -72,6 +75,9 @@ background-image: url("/my-times/resources/images/img-story-3.png")
 .third.image-content{
 background-image: url("/my-times/resources/images/img-story-1.png")
 }
+.text-content{
+  margin-bottom: 17px;
+}
 .stories{
   display: flex;
   justify-content: space-between;
@@ -90,6 +96,9 @@ background-image: url("/my-times/resources/images/img-story-1.png")
 
 .column.small {
   width: 240px;
+}
+.text-content h2{
+  font-size: 30px;
 }
 .news-bites h3{
   font-size: 16px;
@@ -115,6 +124,7 @@ footer{
   align-items: center;
   justify-content: center;
   height: 325px;
+  flex-direction:: column;
 }
 footer .title{
   display: inline-block;
