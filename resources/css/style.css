@@ -58,18 +58,18 @@ header nav{
   text-align:center;
   color: white;
 }
-.featured .image-content{
+.featured.image-content{
 font-size: 40px;
 text-align: left;
 background-image: url("/my-times/resources/images/img-story-main.png");
 }
-.first .image-content{
+.first.image-content{
 background-image: url("/my-times/resources/images/img-story-2.png")
 }
-.second .image-content{
+.second.image-content{
 background-image: url("/my-times/resources/images/img-story-3.png")
 }
-.third .image-content{
+.third.image-content{
 background-image: url("/my-times/resources/images/img-story-1.png")
 }
 .story{
