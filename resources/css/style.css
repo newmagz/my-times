@@ -1,27 +1,32 @@
 div{
     border: 1px solid black;
 }
-.header {
+header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   align-items: center;
   height: 80px;
+  width: 100%
+}
+.header {
+  display: flex;
 }
 .logo{
 display: flex;
-color: MediumAquamarine;
 flex-grow: 1;
 align-items: center;
 padding-left: 30px;
 }
 .logo span {
     margin-left: 5px;
+    color: MediumAquamarine;
 }
 nav span {
   display: inline-block;
   margin:auto 10px;
+  padding: 20px 10px;
 }
 a {
   color: black;
@@ -32,7 +37,6 @@ header nav{
 .main-content {
   margin: 0 auto;
   display: flex;
-  align-items:flex-start;
 }
 .main-content {
   display: flex;
@@ -41,9 +45,7 @@ header nav{
 .column {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
   margin-right: 32px;
-  flex-wrap: wrap;
 }
 .image-content{
 
