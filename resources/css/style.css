@@ -14,9 +14,6 @@ header {
     width: 100%;
     border-bottom: 1px solid black;
 }
-.header {
-  display: flex;
-}
 .logo{
 display: flex;
 flex-grow: 1;
@@ -39,7 +36,8 @@ header nav{
   padding-right: 40px;
 }
 .main-content {
-  margin: 0 auto;
+  margin: 0 auto 78px auto;
+  padding-top: 123px;
   display: flex;
 }
 .main-content {
