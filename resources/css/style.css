@@ -91,12 +91,11 @@ background-image: url("/my-times/resources/images/img-story-1.png")
 .column.small {
   width: 240px;
 }
-.news-bites{
-  display: flex;
-}
 .news-bites h3{
   font-size: 16px;
   font-weight: bold;
+  text-align: center;
+
 }
 .news-bites span{
   background-color: WhiteSmoke;
@@ -104,4 +103,6 @@ background-image: url("/my-times/resources/images/img-story-1.png")
   font-size: 12px;
   color: DimGray;
   border-bottom: 1px solid black;
+  padding: 11px 20px;
+  display: block;
 }
