@@ -106,3 +106,18 @@ background-image: url("/my-times/resources/images/img-story-1.png")
   padding: 11px 20px;
   display: block;
 }
+footer{
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+}
+.title{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
